@@ -3,7 +3,7 @@ body {
     margin: 0;
     width: 100%;
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
 }
 
 .top-container {
@@ -47,7 +47,7 @@ p {
 
 .mountain {
     width: 30%;
-    opacity: 0.35;
+    opacity: 0.5;
 }
 
 .middle-container {
@@ -147,7 +147,11 @@ hr {
     padding: 40px 0 10px;
 }
 
-.footer-link {
+a:hover {
+    color: #ffffff;
+}
+
+a {
     text-decoration: none;
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
@@ -213,6 +217,12 @@ hr {
         width: 70px;
     }
 
+    .hello {
+        font-size: 15px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
     .profile-img {
         width: 12rem;
     }
@@ -230,27 +240,64 @@ hr {
         margin: 50px auto;
     }
 
-    .code-img{
-        float: left; 
-        margin-right: 10px;
-        margin-bottom: 10px;
-    }
-
     .skill-row {
         width: 50%;
         margin: 50px auto;
         text-align: left;
     }
 
+    .code-img{
+        float: left; 
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
     .code-img, .pen-tool {
         width: 9rem;
     }
 
-    .hello {
-        font-size: 15px;
-        margin: 0 auto;
-        padding-bottom: 20px;
+    .bottom-container {
+        position: relative;
+        background-color: #66BFBF;
+        padding: 20px 0 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #11999E;
+        font-family: 'Montserrat', sans-serif;
+        margin-right: 20px;
+        display: inline-block;
+    }
+
+    .facebook-img {
+        width: 40px;
     }
     
+    .twitter-img {
+        width: 40px;
+    }
     
+    .whatsapp-img {
+        width: 40px;
+    }
+
+    .footer-link2 {
+        margin-right: 40px;
+        padding-top: 10px;
+    }
+
+    .footer-link3 {
+        margin-right: 0;
+        padding-top: 10px;
+    }
+    
+    .copyright {
+        padding-top: 20px;
+        margin: 0;
+        font-size: 0.75rem;
+        color: #EAF6F6;
+    }
+
+
 }
